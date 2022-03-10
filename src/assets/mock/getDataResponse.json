@@ -1,0 +1,40 @@
+{
+  "users": [
+    {
+      "fullName": "Sergey Sergeev",
+      "sex": "male",
+      "profession": "Programmer",
+      "matchedYou": false
+    },
+    {
+      "fullName": "Petr Petrovich",
+      "sex": "male",
+      "profession": "Driver",
+      "matchedYou": false
+    },
+    {
+      "fullName": "Jessica Parker",
+      "sex": "female",
+      "profession": "Professional model",
+      "matchedYou": false
+    },
+    {
+      "fullName": "Sergey Sergeev",
+      "sex": "male",
+      "profession": "programmer",
+      "matchedYou": false
+    },
+    {
+      "fullName": "Sergey Sergeev",
+      "sex": "male",
+      "profession": "programmer",
+      "matchedYou": false
+    },
+    {
+      "fullName": "Sergey Sergeev",
+      "sex": "male",
+      "profession": "programmer",
+      "matchedYou": false
+    }
+  ]
+}
