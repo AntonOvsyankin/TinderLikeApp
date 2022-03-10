@@ -1,0 +1,94 @@
+.main {
+  height: 760px;
+  width: 480px;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 15px 20px;
+
+  &_background {
+    background-color: white;
+  }
+
+  .users {
+    will-change: transform;
+    transition: all 0.5s ease-in-out;
+    position: absolute;
+    top: 3%;
+    left: 8%;
+
+    .user {
+      position: relative;
+      margin-bottom: 30px;
+
+      .photo {
+        width: 400px;
+        height: 600px;
+      }
+
+      .text {
+        position: absolute;
+        bottom: 0;
+        height: 105px;
+        width: 100%;
+
+        &_markup {
+          padding: 16px 32px;
+          display: flex;
+          flex-direction: column;
+        }
+
+        &_style {
+          color: white;
+          font-family: Sk-Modernist;
+        }
+
+        &__mask {
+          filter: blur(24px);
+        }
+
+        &__title {
+          font-size: 24px
+        }
+
+        &__description {
+          font-size: 16px;
+        }
+
+      }
+    }
+  }
+
+  .options {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .button {
+      border: 0;
+      cursor: pointer;
+      border-radius: 50px;
+      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.07);
+
+      &_big {
+        height: 100px;
+        width: 100px;
+        background-color: #E94057;
+      }
+
+      &_small {
+        height: 75px;
+        width: 75px;
+        background-color: white;
+      }
+    }
+  }
+}
+
+.modal {
+  position: fixed;
+  background-color: grey;
+  opacity: 0.5;
+}

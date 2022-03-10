@@ -1,40 +1,44 @@
-{
-  "users": [
-    {
-      "fullName": "Sergey Sergeev",
-      "sex": "male",
-      "profession": "Programmer",
-      "matchedYou": false
-    },
-    {
-      "fullName": "Petr Petrovich",
-      "sex": "male",
-      "profession": "Driver",
-      "matchedYou": false
-    },
-    {
-      "fullName": "Jessica Parker",
-      "sex": "female",
-      "profession": "Professional model",
-      "matchedYou": false
-    },
-    {
-      "fullName": "Sergey Sergeev",
-      "sex": "male",
-      "profession": "programmer",
-      "matchedYou": false
-    },
-    {
-      "fullName": "Sergey Sergeev",
-      "sex": "male",
-      "profession": "programmer",
-      "matchedYou": false
-    },
-    {
-      "fullName": "Sergey Sergeev",
-      "sex": "male",
-      "profession": "programmer",
-      "matchedYou": false
-    }
-  ]
-}
+[
+  {
+    "fullName": "Sergey Sergeev",
+    "sex": "male",
+    "age": 30,
+    "profession": "Programmer",
+    "matchedYou": false
+  },
+  {
+    "fullName": "Petr Petrovich",
+    "sex": "male",
+    "age": 32,
+    "profession": "Driver",
+    "matchedYou": false
+  },
+  {
+    "fullName": "Jessica Parker",
+    "sex": "female",
+    "age": 23,
+    "profession": "Professional model",
+    "matchedYou": true
+  },
+  {
+    "fullName": "Anton Antonov",
+    "sex": "male",
+    "age": 25,
+    "profession": "Programmer",
+    "matchedYou": true
+  },
+  {
+    "fullName": "Ivan Ivanov",
+    "sex": "male",
+    "age": 27,
+    "profession": "Firefighter",
+    "matchedYou": false
+  },
+  {
+    "fullName": "Kseniya Antonova",
+    "sex": "male",
+    "age": 23,
+    "profession": "teacher",
+    "matchedYou": true
+  }
+]
